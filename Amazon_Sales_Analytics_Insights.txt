@@ -1,0 +1,108 @@
+
+Amazon Sales Analytics - Comprehensive Insights Summary
+=======================================================
+
+Overview:
+---------
+This report provides a detailed exploratory analysis of an Amazon product dataset using a custom-built Streamlit dashboard.
+The goal is to extract business intelligence and customer sentiment insights from product pricing, discounting, reviews,
+and ratings. The insights are derived by visualizing patterns and performing statistical summaries.
+
+1. Dataset Overview
+-------------------
+- The dataset originally contained 1,462 product entries from Amazon.
+- After data cleaning (missing value removal, type conversions), the dataset was fit for analysis.
+
+2. Price Analysis
+-----------------
+- Discounted Price:
+  - Mean: ₹3,129.98 | Min: ₹39 | Max: ₹77,990
+- Actual Price:
+  - Mean: ₹5,453.09 | Min: ₹39 | Max: ₹139,900
+- Discount %:
+  - Mean: 47.67% | Max: 94%
+- Insight:
+  - The majority of products are priced under ₹5,000.
+  - High-value products exist but are less common.
+  - Substantial discounts are prevalent, suggesting aggressive promotional strategies.
+
+3. Rating Insights
+------------------
+- Average Rating across all products: 4.10
+- Most frequent ratings: 4.1, 4.3, 4.2 (majority clustered between 4.0 and 4.5)
+- Insight:
+  - Most products are positively reviewed, indicating customer satisfaction.
+  - Very few low-rated products exist, which could be due to either quality control or review moderation.
+
+4. Review Volume (Popularity)
+-----------------------------
+- Top reviewed products include smartwatches and charging accessories:
+  1. Fire-Boltt Ninja Call Pro Plus 1.83" Smart Watch
+  2. Fire-Boltt Phoenix Smart Watch
+  3. Wayona USB C OTG Adapter, MI 2-in-1 Cable, Ambrane 60W Cable, boAt LTG Cable
+
+- Insight:
+  - Consumer electronics, particularly accessories and wearables, dominate customer engagement.
+  - These products generate more reviews, likely because of their functional impact and widespread use.
+
+5. Review Titles & Sentiments
+-----------------------------
+- Common review titles: “Good product”, “Charging is really fast”, “Value for money”, “Phone review”
+- Insight:
+  - Titles are largely positive and repetitive, indicating frequent satisfaction with value and functionality.
+
+6. Word Cloud Analysis (Review Content)
+---------------------------------------
+- Frequent terms include: "value", "charging", "good", "battery", "quality", "money", "performance"
+- Insight:
+  - Customers highlight product usability and reliability.
+  - Emphasis on value for money and charging speed for tech accessories.
+
+7. Discount Trends
+------------------
+- Discounts frequently fall between 30–60%.
+- A small number of products receive very deep cuts (up to 94%).
+- Insight:
+  - Heavy discounting may indicate seasonal sales, stock clearance, or competitive pricing.
+
+8. Correlation Matrix (Feature Relationships)
+---------------------------------------------
+- Discounted Price vs Actual Price: Strong positive correlation (0.96)
+- Rating vs Price: Weak positive correlation (0.12)
+- Rating vs Discount %: Weak negative correlation (-0.15)
+- Rating vs Rating Count: Weak positive correlation (0.10)
+- Insight:
+  - Product pricing has almost no bearing on customer satisfaction (rating).
+  - Higher discounts do not guarantee better ratings, challenging the assumption that cheaper = better.
+
+9. Top Rated Categories
+-----------------------
+- Highest average ratings found in categories like:
+  - Tablets, PowerLAN Adapters, Media Streaming Devices, Calculators, Surge Protectors
+- Insight:
+  - These categories consistently deliver user satisfaction, suggesting quality control and meeting expectations.
+
+10. Overall Business Insights
+-----------------------------
+✓ Amazon product listings are heavily influenced by customer perception (ratings and review counts).
+✓ Discounts are a major pricing strategy but are not directly tied to better ratings.
+✓ Smartwatches and mobile accessories dominate the high-engagement product space.
+✓ Most customers provide moderate to high ratings, creating a generally positive sentiment landscape.
+✓ Pricing, while variable, shows minimal impact on rating satisfaction, suggesting value is subjective and often based on feature-to-price evaluation.
+
+Prepared by:
+------------
+Kajola Gbenga
+Certified Data Analyst | Certified Data Scientist | Certified_SQL_Database_Programmer | Mobile App Developer
+LinkedIn: https://www.linkedin.com/in/kajolagbenga
+Portfolio: https://kajolagbenga.netlify.app/
+GitHub: https://github.com/prodigy234
+Email: k.gbenga234@gmail.com
+
+Technology Stack:
+-----------------
+- Python
+- Streamlit
+- Pandas
+- Seaborn & Matplotlib
+- WordCloud
