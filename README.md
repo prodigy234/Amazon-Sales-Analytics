@@ -2,6 +2,9 @@
 
 This project is a **Streamlit web application** that provides comprehensive data analytics and visualization of an Amazon product sales dataset. Built with Python and several powerful data libraries, the dashboard allows users to interactively explore insights related to pricing, ratings, reviews, product performance, and more.
 
+This Amazon Sales Analytics Dashboard can be accessed [Here](https://amazon-sales-analytics.streamlit.app/)
+
+
 ---
 
 ## 📬 Author
@@ -16,6 +19,19 @@ This project is a **Streamlit web application** that provides comprehensive data
 
 [Certified_SQL_Database_Programmer](https://www.datacamp.com/certificate/SQA0019722049554)
 
+
+---
+
+## 📁 File Structure
+
+```
+📦 Amazon Sales Analytics/
+├── amazon.csv       # Main dataset
+├── main.py                   # Streamlit dashboard app
+├── sales.ipynb       # Jupyter Notebook
+├── requirements.txt                   # Installation of Dependencies
+├── README.md                      # This readme file
+```
 
 ---
 
