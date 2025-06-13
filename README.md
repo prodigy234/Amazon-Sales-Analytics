@@ -5,7 +5,7 @@ This project is a **Streamlit web application** that provides comprehensive data
 
 ---
 
-This Amazon Sales Analytics Dashboard which I extensively built can be accessed live on streamlit [Here](https://amazon-sales-analytics.streamlit.app/)
+This Amazon Sales Analytics Dashboard which I extensively built can be accessed live on streamlit [Here](https://amazonanalytics.streamlit.app/)
 
 ---
 
